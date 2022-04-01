@@ -1,0 +1,88 @@
+<!-- For inline elements, margin left & right works, others doesent work.
+padding is working for all sides -->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Class 6</title>
+        <!-- External css -->
+        <link rel="stylesheet" href="class5.css">
+        <!-- Internal CSS -->
+        <style>
+            /* Class selector */
+            .firstbox{
+                border: black 2px solid;
+                width: 50%;
+                background-color: aquamarine;
+            }
+            /* id selector */
+            #internal_ul{
+                background-color: rgb(241, 241, 158);
+            }
+            /* Element selector/tag selector */
+            ol{
+                background-color: rgb(241, 101, 50);
+            }
+            /* Attribute selector */
+            p[name= "first_p_tag"]{
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- In line CSS -->
+        <h1 style="color: rgb(3, 82, 82); background-color: rgb(124, 104, 104);border:blue 2px solid;" id="heading1">First Level Heading</h1>
+        <h2>First Level Heading</h2>
+        <h3>First Level Heading</h3>
+        <h4>First Level Heading</h4>
+        <h5>First Level Heading</h5>
+        <h6>First Level Heading</h6>
+
+        <p style="text-align: justify; color: black; background-color: rgb(240, 120, 120);padding: 10px; border: green 2px solid;">
+            I am <strong><em>Naveen Weththasinghe</em></strong> , a graduate who followed BSc. (Hons.) in Electronic and Telecommunication Engineering at Sri Lanka Technological Campus. I am writing to apply for the position of Engineer - Access Network Planning in your company.
+            <br>
+            I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new technologies that are important to me and the success of your organization.
+            <br>
+            Enclosed resume provides more details about my skills and experience to ensure my capabilities to undertake this job position.
+            Thank you for your time and consideration.
+
+        </p>
+        <div class="firstbox">
+            <h4>DIV DIV DIV</h4>
+            <h5>First Level Heading</h5>
+            <h6>First Level Heading</h6>
+            <p name = "first_p_tag">Hello world</p>
+        </div>
+        <ul id="internal_ul">
+            <li>Pizza</li>
+            <li>Cake</li>
+            <li>Bread</li>
+        </ul>
+        <ol type="a">
+            <li>Pizza</li>
+            <li>Cake</li>
+            <li>Bread</li>
+        </ol>
+
+        <img width="1000px" src="https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg">
+        <img height="500px" alt="Discount from Pizza hut" src=".\assets\2f8db0a9-5dc7-4a82-907b-0aac5f73ab81.jpg">
+        <img width="1000px" height="500px" src="C:\Users\User\Downloads\sourdough-pizza-crust.jpg">
+        <br>
+        <h6 id="heading6">First Level Heading</h6>
+        <br>
+        <video controls>
+            <source src=".\assets\Harsha Dhanosh - Oya As Katha Karanawa - Podu Teledrama Song.mp4">
+            
+            Your browser does not support
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z6CmFx32k34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <audio controls>
+            <source src=".\assets\03 - Hasi (Male) - DownloadMing.SE.mp3">
+        </audio>
+        <a href="#heading6">Class 2</a>
+        
+
+    </body>
+</html>

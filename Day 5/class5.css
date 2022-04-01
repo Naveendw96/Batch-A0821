@@ -1,0 +1,28 @@
+ /* Class selector */
+.firstbox{
+    border: black 2px solid;
+    width: 50%;
+    background-color: aquamarine;
+}
+/* id selector */
+#internal_ul{
+    background-color: rgb(241, 241, 158);
+}
+/* Element selector/tag selector */
+ol{
+    background-color: rgb(241, 101, 50);
+}
+
+body{
+    background-color: rgb(166, 177, 177);
+}
+img{
+    border-radius: 50%;
+}
+
+/* Attribute selector */
+p[name= "first_p_tag"]{
+    background-color: pink;
+}
+
+
