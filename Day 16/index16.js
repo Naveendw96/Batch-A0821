@@ -59,7 +59,7 @@ for(var e of age){
 */
 
 //-------Object predefined functions--------- 
-
+/*
 var obj = {65:"A", 66:"B", 67:"C"};
 console.log(obj);
 console.log(Object.keys(obj));
@@ -89,4 +89,4 @@ console.log(obj.foo);
 obj.new_foo = "bar2";
 console.log(obj.new_foo);
 console.log(obj);
-
+*/
