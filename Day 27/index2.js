@@ -1,0 +1,1 @@
+const myimportmodule = require('./index')
