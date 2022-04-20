@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld.js';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Count from './components/Count.js';
+import Example from './components/Example';
 
 function App() {
+  const varname = {
+    namer:"Nikil",
+    title:"agarwal"
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Header/>
+      {/* <HelloWorld name="Naveen Dasitha" title="I love React"/> */}
+      <HelloWorld h={varname} hh="I love React"/>
+      <Count/>
+      <Example/>
+      <Footer/>
     </div>
   );
 }

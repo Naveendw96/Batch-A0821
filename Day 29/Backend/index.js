@@ -1,5 +1,5 @@
 // ---------------------------------Main Backend File-------------------------------------
-
+require('dotenv').config()
 const db = require("./database/index.js");
 const BookModel = require("./database/books");
 const AuthorModel = require("./database/authors");
@@ -12,7 +12,7 @@ app.use(express.json()); // express.json() - Built in middleware function in exp
 //---Method 1-----
 var mongoose = require('mongoose');       // Import the mongoose module
 // Set uop default mongoose connection
-var mongoDB = "mongodb+srv://NaveenDW:dj6FgFSvmkFa8PC@cluster0.wjsc8.mongodb.net/book-company?retryWrites=true&w=majority";
+var mongoDB = process.env.MONGODB_URI;
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true}).then(() => console.log("***Connection Established***"));
 
 

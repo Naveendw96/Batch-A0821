@@ -1,7 +1,7 @@
 console.log("Class 20");
 //------Array Methods----MAP------
-/*
-let ranks = [1, 2, 3, 4];
+
+let ranks = [1, 2, 3, 4, 5, 6];
 
 console.log(
     ranks.map((e, index) => {
@@ -17,10 +17,10 @@ let newarr = ranks.map((e,index) =>{
         return e
 })
 console.log(newarr);
-*/
+
 //------Array Methods----Filter------
-/*
-let ranks = [1, 2, 3, 4, 5, 6];
+
+// let ranks = [1, 2, 3, 4, 5, 6];
 
 let newfilterarrr = ranks.filter((e,index) =>{
     
@@ -28,7 +28,7 @@ let newfilterarrr = ranks.filter((e,index) =>{
         return e
 })
 console.log(newfilterarrr);
-*/
+
 
 //------Object Methods----Promise------
 
